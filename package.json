@@ -1,0 +1,43 @@
+{
+    "name": "gulp-boilerplate",
+    "version": "0.0.1",
+    "description": "QuickStart project",
+    "main": "index.js",
+    "scripts": {
+        "start": "gulp"
+    },
+    "config": {
+        "src": {
+            "all": "src/**/*.*",
+            "sass": "src/sass",
+            "js": "src/js",
+            "img": "src/img"
+        },
+        "build": {
+            "css": "build/css",
+            "js": "build/js",
+            "img": "build/img"
+        }
+    },
+    "author": "Alexander Sytnik <sytnik16@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^8.5.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.7.0",
+        "browser-sync": "^2.24.4",
+        "cssnano": "^3.10.0",
+        "gulp": "^3.9.1",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-postcss": "^7.0.1",
+        "gulp-sass": "^4.0.1",
+        "gulp.spritesmith": "^6.9.0",
+        "merge-stream": "^1.0.1",
+        "require-dir": "^1.0.0",
+        "run-sequence": "^2.2.1",
+        "vinyl-buffer": "^1.0.1",
+        "webpack": "^4.8.3",
+        "webpack-stream": "^4.0.3"
+    }
+}
