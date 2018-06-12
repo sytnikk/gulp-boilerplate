@@ -9,11 +9,13 @@
     "config": {
         "src": {
             "all": "src/**/*.*",
+            "html": "src",
             "sass": "src/sass",
             "js": "src/js",
             "img": "src/img"
         },
         "build": {
+            "html": "build",
             "css": "build/css",
             "js": "build/js",
             "img": "build/img"
@@ -29,15 +31,22 @@
         "browser-sync": "^2.24.4",
         "cssnano": "^3.10.0",
         "gulp": "^3.9.1",
+        "gulp-clean": "^0.4.0",
+        "gulp-image": "^4.3.0",
         "gulp-imagemin": "^4.1.0",
+        "gulp-nunjucks": "^4.0.0",
         "gulp-postcss": "^7.0.1",
         "gulp-sass": "^4.0.1",
         "gulp.spritesmith": "^6.9.0",
         "merge-stream": "^1.0.1",
         "require-dir": "^1.0.0",
         "run-sequence": "^2.2.1",
+        "uglifyjs-webpack-plugin": "^1.2.5",
         "vinyl-buffer": "^1.0.1",
         "webpack": "^4.8.3",
         "webpack-stream": "^4.0.3"
+    },
+    "dependencies": {
+        "jquery": "^3.3.1"
     }
 }

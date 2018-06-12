@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var config = require('../package.json').config;
 
 gulp.task('copy', function(){
-	return gulp.src('src/**/*')
+	return gulp.src(config.src.all)
   		.pipe(gulp.dest('build/'))
 })
 
